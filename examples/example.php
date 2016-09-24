@@ -6,7 +6,7 @@ $sensor1 = new Sensor(Device_UUID, "paste_your_SENSOR_NAME_here");
 $sensor1->sendData(40);
 print_r($sensor1->getData(2));
 
-$actuator1 = new Actuator(Device_UUID, "paste_your_ACTUATOR_NAME_here");
+$actuator1 = new Actuator(3b0abda7-10a6-437e-a859-c2732278fec1, "sw");
 $actuator1->sendState(0);
 print_r($actuator1->getStates());
 
